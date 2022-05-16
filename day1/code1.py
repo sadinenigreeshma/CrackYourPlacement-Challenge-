@@ -7,7 +7,7 @@ def findDuplicate(self, nums):
 :rtype: int
 """
 for i in range(len(nums)):
-if(nums[0]!=nums[nums[0]]):
-nums[nums[0]],nums[0]=nums[0],nums[nums[0]]
-else:
-return nums[0]
+  if(nums[0]!=nums[nums[0]]):
+    nums[nums[0]],nums[0]=nums[0],nums[nums[0]]
+    else:
+      return nums[0]
